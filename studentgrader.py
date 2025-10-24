@@ -67,6 +67,7 @@ class StudentGrader:
                 print("Enter a valid score")
                 continue
         self.students.append(student)
+    
 
     def view_students(self):
         for student in self.students:
@@ -107,7 +108,6 @@ def main():
                 break
             else:
                 print("Invalid Input")
-                
 
 
 if __name__ == "__main__":
