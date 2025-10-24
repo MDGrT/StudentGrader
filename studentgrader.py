@@ -107,7 +107,7 @@ def main():
                 print("Bye for now!")
                 break
             else:
-                print("Invalid Input")
+                print("Invalid Input!")
 
 
 if __name__ == "__main__":
